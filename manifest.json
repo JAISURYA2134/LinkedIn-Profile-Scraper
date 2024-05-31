@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Profile Scraper",
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage",
+      "tabs"
+    ],
+    "host_permissions": [
+      "https://www.linkedin.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon":"LinkedIn Profile Scraper.png"
+    },
+    "icons":{
+      "128":"LinkedIn Profile Scraper.png"
+    }
+  }
+  

@@ -1,0 +1,39 @@
+body {
+    font-family: Cursive;
+    padding: 20px;
+    width: 300px;
+    background-color: black;
+  }
+  
+  h1 {
+    color: rgb(255, 174, 66);
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  textarea {
+    font-family: Sans-serif;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  button {
+    background: linear-gradient(to right, orange, red);
+    transform: all 0.3s ease;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, red, orange);
+  }
+  
